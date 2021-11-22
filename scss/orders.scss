@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+}
+
+table tr:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.delete{
+    cursor: pointer;
+    text-align: center;
+    
+    &:hover{
+        color: red;
+    }
+}

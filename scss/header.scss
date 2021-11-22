@@ -1,0 +1,110 @@
+@import "general.scss";
+
+.header{
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+
+    .navbar-brand img{
+        width: calcFluid(240, 277, 1200, 1920);
+    }
+
+    .header-nav{
+
+        li a,
+        li p{
+            padding: 0 !important;
+            display: inline;
+            margin: auto calcFluid(3, 17, 1200, 1920);
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+            font-style: italic;
+            font-size: 15px;
+            color: $blue !important;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: .2s;
+
+            @media (max-width: 1200px){
+               margin: 10px 0px;
+            }
+
+            &:hover{
+                border-bottom: 2px solid $blue;
+            }
+        }
+    }
+
+    .header-contact{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+
+        @media (max-width: 1200px){
+            margin-top: 15px;
+        }
+
+        @media (max-width: 550px){
+            display: flex;
+            flex-direction: column;
+            margin-top: 35px;
+        }
+
+        a,p{
+            margin: auto 0;
+            font-size: calcFluid(15, 18, 1200, 1920);
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+            color: black;
+            text-decoration: none;
+
+            @media (max-width: 1200px){
+                font-size: 16px;
+            }
+        }
+
+        &__address{
+            margin: auto calcFluid(20, 30, 1500, 1920) !important;
+
+            @media (max-width: 1200px){
+                margin: auto 15px !important;
+            }
+
+            @media (max-width: 550px){
+                margin: 10px 0 !important;
+            }
+        }
+
+        &__number{
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        
+        &__record{
+            background-color: $blue;
+            border-radius: 6px;
+            display: flex;
+            height: 40px;
+            padding: 0px 15px;
+            margin: auto 0;
+            cursor: pointer;
+            transition: .6s;
+
+            &:hover{
+                background-color: #214381;
+            }
+
+            a{
+                margin: auto;
+                font-size: 15px;
+                color: white;
+            }
+        }
+    }
+}

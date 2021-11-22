@@ -1,0 +1,81 @@
+$yellow: #FCE500;
+$blue: #27509B;
+$lightBlue: rgba(39, 80, 155, 0.5);
+
+@function calcFluid($f-min, $f-max, $w-min, $w-max) {
+	$k: ($f-max - $f-min)/($w-max - $w-min);
+	$b: $f-min - $k * $w-min;
+  
+	$b: $b * 1px;
+  
+	@return calc( #{$k} * 100vw + #{$b} );
+}
+
+@font-face{
+	font-family: "Montserrat";
+	src: url('../font/Montserrat/Montserrat-Bold.ttf');
+	font-weight: 800;
+}
+
+@font-face{
+	font-family: "Montserrat";
+	src: url('../font/Montserrat/Montserrat-Medium.ttf');
+	font-weight: 500;
+}
+
+@font-face{
+	font-family: "Montserrat";
+	src: url('../font/Montserrat/Montserrat-SemiBold.ttf');
+	font-weight: 700;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.paddingLeftRight{
+    padding: 10px calcFluid(10, 80, 320, 1920) !important;
+}
+
+.bigTitle{
+	margin-top: calcFluid(25, 80, 320, 1920);
+	color: $blue;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	font-size: calcFluid(25, 44, 320, 1920);
+	margin-bottom: calcFluid(15, 30, 320, 1920);
+}
+
+.titleFon{
+	background-size: cover;
+	background-position-x: center;
+	padding: 40px 0;
+	margin: calcFluid(25, 80, 320, 1920) 0;
+
+	h3{
+		color: $yellow;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 800;
+		font-size: calcFluid(25, 72, 320, 1920);
+		text-shadow: 0px 4px 15px #000000;
+		padding-right: 35% !important;
+
+		@media (max-width: 1300px){
+			padding-right: 25% !important;
+		}
+
+		@media (max-width: 810px){
+			padding-right: calcFluid(10, 80, 320, 1920) !important;
+		}
+	}
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}

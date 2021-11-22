@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat/Montserrat-Bold.ttf");
+  font-weight: 800; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat/Montserrat-Medium.ttf");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat/Montserrat-SemiBold.ttf");
+  font-weight: 700; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+.paddingLeftRight {
+  padding: 10px calc( 0.04375 * 100vw + -4px) !important; }
+
+.bigTitle {
+  margin-top: calc( 0.03438 * 100vw + 14px);
+  color: #27509B;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: calc( 0.01188 * 100vw + 21.2px);
+  margin-bottom: calc( 0.00937 * 100vw + 12px); }
+
+.titleFon {
+  background-size: cover;
+  background-position-x: center;
+  padding: 40px 0;
+  margin: calc( 0.03438 * 100vw + 14px) 0; }
+  .titleFon h3 {
+    color: #FCE500;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: calc( 0.02937 * 100vw + 15.6px);
+    text-shadow: 0px 4px 15px #000000;
+    padding-right: 35% !important; }
+    @media (max-width: 1300px) {
+      .titleFon h3 {
+        padding-right: 25% !important; } }
+    @media (max-width: 810px) {
+      .titleFon h3 {
+        padding-right: calc( 0.04375 * 100vw + -4px) !important; } }
+
+.row {
+  display: flex;
+  flex-direction: row; }
+
+#price,
+#news {
+  background-color: #fff !important;
+  padding: calc( 0.04063 * 100vw + 2px) !important; }
+  #price .modal-row,
+  #news .modal-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    #price .modal-row .my-h4,
+    #price .modal-row .my-h4__news,
+    #news .modal-row .my-h4,
+    #news .modal-row .my-h4__news {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      font-size: calc( 0.02125 * 100vw + 13.2px) !important;
+      color: #27509B; }
+    #price .modal-row img,
+    #news .modal-row img {
+      width: calc( 0.02125 * 100vw + 13.2px); }
+  #price .modal-content,
+  #news .modal-content {
+    border: none !important; }
+    #price .modal-content table,
+    #news .modal-content table {
+      margin-top: 25px; }
+      #price .modal-content table td, #price .modal-content table th,
+      #news .modal-content table td,
+      #news .modal-content table th {
+        border: 1px solid black;
+        text-align: center;
+        padding: 7px 15px; }
+        #price .modal-content table td:first-child, #price .modal-content table th:first-child,
+        #news .modal-content table td:first-child,
+        #news .modal-content table th:first-child {
+          width: 70%;
+          text-align: start; }
+        #price .modal-content table td:last-child, #price .modal-content table th:last-child,
+        #news .modal-content table td:last-child,
+        #news .modal-content table th:last-child {
+          width: 30%; }
+      #price .modal-content table th,
+      #news .modal-content table th {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: calc( 0.0125 * 100vw + 12px); }
+        #price .modal-content table th:first-child,
+        #news .modal-content table th:first-child {
+          text-align: center; }
+      #price .modal-content table td,
+      #news .modal-content table td {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: calc( 0.00937 * 100vw + 12px); }
+  #price .modal-news div,
+  #news .modal-news div {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px; }
+    @media (max-width: 400px) {
+      #price .modal-news div,
+      #news .modal-news div {
+        width: 100%; } }
+    #price .modal-news div img,
+    #news .modal-news div img {
+      width: 100%; }
+  #price .modal-news p,
+  #news .modal-news p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: calc( 0.005 * 100vw + 14.4px);
+    margin-bottom: 30px; }

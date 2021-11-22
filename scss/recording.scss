@@ -1,0 +1,181 @@
+@import "general.scss";
+
+.recording{
+    background-color: #fff !important;
+    display: flex;
+    flex-direction: column;
+
+    &-content{
+        &__dates{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;  
+            margin: 0 auto;  
+            width: auto;
+        }
+
+        &__control{
+            padding: 0 15px;
+            margin: 30px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            @media (max-width: 850px) {
+                flex-direction: column;
+            }
+
+            .recording-btn{
+                background: #FFFFFF;
+                border: 5px solid #27509B;
+                box-sizing: border-box;
+                border-radius: 6px;
+                color: $blue;
+                padding: 10px calcFluid(50, 140, 320, 1920);
+                font-size: calcFluid(16, 25, 320, 1920);
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;  
+                cursor: pointer; 
+                text-align: center;
+
+                @media (max-width: 850px) {
+                    margin: 30px 0;
+                }
+            }
+
+            .btn-blue{
+                background-color: #27509B;
+                color: white;
+            }
+
+            .control{
+                display: flex;
+                flex-direction: row;
+
+                @media (max-width: 850px) {
+                    margin: 0px auto;
+                }
+
+                p{
+                    margin: auto calcFluid(25, 40, 320, 1920);
+                    font-size: calcFluid(20, 30, 320, 1920);
+                    color: $blue;
+                }
+
+                img{
+                    cursor: pointer;
+
+                    @media(max-width: 1000px) {
+                        width: 30px;
+                        height: 40px;
+                        margin: auto 0;
+                    }
+                    
+                    &:last-child{
+                        transform: rotateZ(180deg);
+                    }
+                }
+            }
+        }
+
+        &__times{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .recording-time{
+                width: 7.7%;
+                margin: 10px 0;
+                display: flex;
+                flex-direction: column;
+                border: 3px solid $blue;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: .3s;
+
+                @media (max-width: 800px) {
+                    width: 16%;
+                }
+
+                &:hover{
+                    background-color: #27509b36;
+                }
+
+                p{
+                    text-align: center;
+                    font-size: calcFluid(16, 27, 320, 1920);
+                    color: $blue;
+                    
+                    &:nth-child(1){
+                        margin-top: auto;
+                    }
+
+                    &:nth-child(2){
+                        margin-bottom: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    &-date{
+        width: 4.68%;
+        margin: calcFluid(5, 15, 320, 1920);
+        // padding: calcFluid(5, 20, 320, 1920);
+        display: flex;
+        border: 3px solid $blue;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: .3s;
+
+        @media(max-width: 950px){
+            width: 6%;
+        }
+
+        @media(max-width: 650px){
+            width: 9%;
+        }
+
+        @media(max-width: 450px){
+            width: 13%;
+        }
+
+        &:hover{
+            background-color: #27509b36;
+        }
+
+        p{
+            margin: auto;
+            font-size: calcFluid(18, 27, 320, 1920);
+            color: $blue;
+            text-align: center;
+        }
+    }
+
+    &__active{
+        background-color: $blue;
+        
+        p{
+            color: white !important;
+        }
+    }
+
+    &__busy{
+        background-color: $yellow;
+    }
+}
+
+.s4{
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .s4{
+        display: block !important;
+    }
+
+    .s3{
+        display: none !important;
+    }
+}

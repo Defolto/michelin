@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat/Montserrat-Bold.ttf");
+  font-weight: 800; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat/Montserrat-Medium.ttf");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat/Montserrat-SemiBold.ttf");
+  font-weight: 700; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+.paddingLeftRight {
+  padding: 10px calc( 0.04375 * 100vw + -4px) !important; }
+
+.bigTitle {
+  margin-top: calc( 0.03438 * 100vw + 14px);
+  color: #27509B;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: calc( 0.01188 * 100vw + 21.2px);
+  margin-bottom: calc( 0.00937 * 100vw + 12px); }
+
+.titleFon {
+  background-size: cover;
+  background-position-x: center;
+  padding: 40px 0;
+  margin: calc( 0.03438 * 100vw + 14px) 0; }
+  .titleFon h3 {
+    color: #FCE500;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: calc( 0.02937 * 100vw + 15.6px);
+    text-shadow: 0px 4px 15px #000000;
+    padding-right: 35% !important; }
+    @media (max-width: 1300px) {
+      .titleFon h3 {
+        padding-right: 25% !important; } }
+    @media (max-width: 810px) {
+      .titleFon h3 {
+        padding-right: calc( 0.04375 * 100vw + -4px) !important; } }
+
+.row {
+  display: flex;
+  flex-direction: row; }

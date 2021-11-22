@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modals.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" href="css/modaal.css">
+    <link rel="stylesheet" href="css/recording.css">
+</head>
+<body>
+
+  <div id="price">
+    <div class="modal-row">
+      <h4 class="my-h4">Стоимость оказания услуг</h4>
+      <div class="close-price"> 
+        <img src="img/close.png">
+      </div>
+    </div> 
+    <div class="modal-content">
+      <table>
+        <tr>
+          <th>Категория транспортных средств</th>
+          <th>Размер платы (руб.),<br> (стоимость дубликата)</th>
+        </tr>
+        <tr>
+          <td>М1 - транспортные средства, используемые для перевозки пассажиров и имеющие, помимо места водителя, не более 8 мест для сидения</td>
+          <td>660,00<br>66,00</td>
+        </tr>
+        <tr>
+          <td>М2 - транспортные средства, используемые для перевозки пассажиров, имеющие, помимо места водителя, более 8 мест для сидения, технически допустимая максимальная масса которых не превышает 5 тонн</td>
+          <td>1180,00<br>110,00</td>
+        </tr>
+        <tr>
+          <td>М3 - транспортные средства, используемые для перевозки пассажиров, имеющие, помимо места водителя, более 8 мест для сидения, технически допустимая максимальная масса которых превышает 5 тонн</td>
+          <td>1430,00<br>140,00</td>
+        </tr>
+        <tr>
+          <td>N1 - транспортные средства, предназначенные для перевозки грузов, имеющие технически допустимую максимальную массу не более 3,5 тонны</td>
+          <td>700,00<br>70,00</td>
+        </tr>
+        <tr>
+          <td>N2 - транспортные средства, предназначенные для перевозки грузов, имеющие технически допустимую максимальную массу свыше 3,5 тонны, но не более 12 тонн</td>
+          <td>1380,00<br>130,00</td>
+        </tr>
+        <tr>
+          <td>N3 - транспортные средства, предназначенные для перевозки грузов, имеющие технически допустимую максимальную массу более 12 тонн</td>
+          <td>1490,00<br>140,00</td>
+        </tr>
+        <tr>
+          <td>O1 - прицепы, технически допустимая максимальная масса которых не более 0,75 тонны</td>
+          <td>550,00<br>55,00</td>
+        </tr>
+        <tr>
+          <td>O2 - прицепы, технически допустимая максимальная масса которых свыше 0,75 тонны, но не более 3,5 тонны</td>
+          <td>550,00<br>55,00</td>
+        </tr>
+        <tr>
+          <td>O3 - прицепы, технически допустимая максимальная масса которых свыше 3,5 тонны, но не более 10 тонн</td>
+          <td>960,00<br>90,00</td>
+        </tr>
+        <tr>
+          <td>O4 - прицепы, технически допустимая максимальная масса которых более 10 тонн</td>
+          <td>960,00<br>90,00</td>
+        </tr>
+        <tr>
+          <td>L - мототранспортные средства</td>
+          <td>220,00<br>20,00</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="news">
+    <div class="modal-row">
+      <h4 class="my-h4__news">Новости</h4>
+      <div class="close-news"> 
+        <img src="img/close.png">
+      </div>
+    </div> 
+    <div class="modal-news"></div>
+  </div>
+
+  <div id="inline" style="display:none;">
+    <form class="formPole" style="border: none">
+      <h5>Оставить заявку онлайн</h5>
+      <div class="row formPole-row">
+        <div class="col">
+          <input type="text" id="modal__name" placeholder="ФИО">
+          <input type="text" id="modal__numberTC" placeholder="Регистрационный знак ТС">
+          <select id="modal__typeTC" name="typeTC">
+            <option value="Легковой">Легковой</option>
+            <option value="Грузовой">Грузовой</option>
+          </select>
+          <a class="modaal-close s1" id="recording1" href="#recording">Продолжить</a>
+        </div>
+        <div class="col">
+          <input type="text" id="modal__number" placeholder="Телефон">
+          <input type="text" id="modal__modelTC" placeholder="Марка ТС">
+          <textarea name="dop" id="modal__dopInfo">Дополнительная информация</textarea>
+          <a class="modaal-close s2" id="recording2" href="#recording">Продолжить</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col persData">
+          <input type="checkbox" checked>
+          <p>Даю согласие на обработку персональных данных</p>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div id="recording" class="recording">
+    <div class="recording-content__dates">
+      
+    </div>
+    <div class="recording-content__control">
+      <p class="recording-btn close-recording">Назад</p>
+      <div class="control">
+        <img src="img/arrow-control.png" id="prevMonth">
+        <p id="month"></p>
+        <img src="img/arrow-control.png" id="nextMonth">
+      </div>
+      <p class="recording-btn btn-blue" id="btnOrder">Запись</p>
+    </div>
+    <div class="recording-content__times">
+      
+    </div>
+  </div>
+
+    <header class="header">
+      <nav class="navbar navbar-expand-xl navbar-light w-100 bg-light paddingLeftRight">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="логотип" class="header-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#to">Техосмотр</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#dia">Диагностика</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#osago">ОСАГО</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="price1" href="#price">Цены</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Контакты</a>
+                </li>
+              </ul>
+              <div class="header-contact">
+                  <a href="tel" class="header-contact__number">+7 920 134-51-05</a>
+                  <p class="header-contact__address">Ярославль, Суринский посёлок, 1а</p>
+                  <div class="header-contact__record">
+                      <a href="#inline" class="inline">Запись на ТО</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </nav>
+    </header>
+    <main>
+      <section class="mainFon">
+        <div class="wrapper paddingLeftRight">
+          <p class="mainFon__brand">Michelin</p>
+          <p class="mainFon__types">A B C D E</p>
+          <h1>Пункт технического <br> осмотра в Ярославле</h1>
+        </div>
+      </section>
+
+      <section class="newsActions paddingLeftRight">
+        <h3 class="bigTitle">Новости и акции</h3>
+        <div class="newsActions-slider">
+          <!-- фотографии вынесены отдельно из-за скрипта, который делает блоки квадратными. Не надо делать фоном!!! -->
+          <div class="newsActions-slider__item">
+            <div class="wrapper" id="news1" href="#news"></div>
+            <img src="./img/news1.png">
+            <h4>Сердце вашего автомобиля</h4>
+            <p>Читать далее</p>
+          </div>
+          <div class="newsActions-slider__item">
+            <div class="wrapper" id="news2" href="#news"></div>
+            <img src="./img/news2.png">
+            <h4>Что нужно знать о техосмотре</h4>
+            <p>Читать далее</p>
+          </div>
+          <div class="newsActions-slider__item">
+            <div class="wrapper" id="news3" href="#news"></div>
+            <img src="./img/news3.png">
+            <h4>Шины MICHELIN</h4>
+            <p>Читать далее</p>
+          </div>
+          <div class="newsActions-slider__item">
+            <div class="wrapper" id="news4" href="#news"></div>
+            <img src="./img/news4.png">
+            <h4>Мы в интернете</h4>
+            <p>Читать далее</p>
+          </div>
+          <!-- Тут конец статей! -->
+        </div>
+      </section>
+
+      <!-- Сделано в целях упрощения кода (я знаю, что style дурной атрибут) -->
+      <section class="titleFon" style="background-image: url(./img/to.png);">
+        <h3 class="paddingLeftRight">Технический осмотр автомобиля</h3>
+      </section>
+
+      <section class="form paddingLeftRight">
+        <div class="form-col">
+          <div class="form-col__text">
+            <h5>Оставьте заявку</h5>
+            <p>Записаться на техосмотр можно любым удобным вам способом: по телефону +7 920 134-51-05 или заполнив онлайн-форму.</p>
+          </div>
+          <div class="form-col__text">
+            <h5>Возьмите документы</h5>
+            <p>Документ удостоверяющий личность и доверенность (для представителя владельца транспортного средства)</p>
+            <p>Свидетельство о регистрации или паспорт транспортного средства.</p>
+          </div>
+        </div>
+        <div class="form-col">
+          <form class="formPole" id="mainForm">
+            <h5>Оставить заявку онлайн</h5>
+            <div class="row formPole-row">
+              <div class="col">
+                <input type="text" placeholder="ФИО" id="mainForm_name">
+                <input type="text" placeholder="Регистрационный знак ТС" id="mainForm_numberTC">
+                <select name="typeTC" id="mainForm_typeTC">
+                  <option value="Легковой">Легковой</option>
+                  <option value="Грузовой">Грузовой</option>
+                </select>
+                <a class="s3" id="recording3" href="#recording">Продолжить</a>
+              </div>
+              <div class="col">
+                <input type="text" placeholder="Телефон" id="mainForm_number">
+                <input type="text" placeholder="Марка ТС" id="mainForm_modelTC">
+                <textarea name="dop" id="mainForm_dopInfo" placeholder="Дополнительная информация"></textarea>
+                <a class="s4" id="recording4" href="#recording">Продолжить</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col persData">
+                <input type="checkbox" checked id="mainForm_checkbox">
+                <p>Даю согласие на обработку персональных данных</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="to" class="titleFon" style="background-image: url(./img/analys.png);">
+        <h3 class="paddingLeftRight">Комплексная диагностика всех систем автомобиля</h3>
+      </section>
+
+      <section class="checks paddingLeftRight">
+        <div class="row">
+          <div class="checks-col">
+            <img src="./img/check1.png" alt="проверка">
+          </div>
+          <div class="checks-col">
+            <h3>Проверка на тормозном стенде</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="checks-col">
+            <img src="./img/check2.png" alt="проверка">
+          </div>
+          <div class="checks-col">
+            <h3>Проверка на люфт-детекторе</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="dia" class="titleFon" style="background-image: url(./img/diagnostika.png);">
+        <h3 class="paddingLeftRight">Диагностика автомобиля перед покупкой</h3>
+      </section>
+
+      <section class="checks paddingLeftRight">
+        <div class="row checks-row">
+          <div class="checks-col checks-col__text">
+            <h3>Проверка на наличие кузовного ремонта</h3>
+            <h3>Проверка на юридическую чистоту</h3>
+            <h3>Проверка технического состояния</h3>
+          </div>
+          <div class="checks-col">
+            <img src="./img/car.png" alt="автомобиль">
+          </div>
+        </div>
+      </section>
+
+      <section id="osago" class="titleFon" style="background-image: url(./img/osago.png);">
+        <h3 class="paddingLeftRight">ОСАГО</h3>
+      </section>
+
+      <section class="insurance paddingLeftRight">
+        <h3>Страховые компании с которыми мы работаем:</h3>
+        <div class="insurance-row">
+          <div class="insurance-col">
+            <img src="./img/osago/1.png" alt="ингострах">
+            <img class="mt-auto" src="./img/osago/2.png" alt="ренесанс">
+          </div>
+          <div class="insurance-col">
+            <img src="./img/osago/3.png" alt="альфа">
+            <img class="mt-auto" src="./img/osago/4.png" alt="согласие">
+          </div>
+          <div class="insurance-col">
+            <img src="./img/osago/5.png" alt="тинькоф">
+          </div>
+          <div class="insurance-col">
+            <img src="./img/osago/6.png" alt="росэнерго">
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contacts paddingLeftRight">
+        <h3>Контакты</h3>
+        <div class="contacts-row">
+          <div class="contacts-col">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac9322d002deab4959c7e3e74583aee530fe8e3daeb4fee7c8c635dc8002210ee&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
+          </div>
+          <div class="contacts-col">
+            <h4>Пункт технического осмотра Michelin</h4>
+            <p>Ярославль, Суринский посёлок, 1а</p>
+            <p>Открыто ежедневно с 09:00 до 18:00</p>
+            <p>Телефон: +7 920 134-51-05</p>
+            <p>E-mail: borissm@list.ru</p>
+          </div>
+        </div>
+        <div class="contacts-row">
+          <div class="contacts-col">
+            <img src="./img/sert.png" alt="сертификат">
+          </div>
+          <div class="contacts-col">
+            <h4>Индивидуальный предприниматель Кауфман Владислав Алексеевич</h4>
+            <p>Телефон: +7 920 134-51-05</p>
+            <p class="mb-5">E-mail: kitavto18@yandex.ru</p>
+            <p>ИНН 762704205485</p>
+            <p>ОГРНИП 317762700020201</p>
+            <p>Р/сч 40802810002000027586</p>
+            <p>К/сч 30101810300000000760</p>
+            <p>Бик 047888760</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="paddingLeftRight">
+      <p>© Michelin. Пункт технического осмотра в Ярославле. 2020.</p>
+      <p>Изображения: freepik.com</p>
+      <p id="m1" href="#recording"></p>
+    </footer>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="./js/animatedModal.js"></script>
+    <script src="js/news.js"></script>
+    <script src="js/modaal.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/recording.js"></script>
+    <script src="js/chooseDateTime.js"></script>
+</body>
+</html>

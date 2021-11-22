@@ -1,0 +1,1086 @@
+2021-03-25_15:47:09.09522 Server running at http://127.0.4.80:51732/
+2021-03-25_16:28:25.36554 SIGTERM signal received.
+2021-03-25_16:28:25.36562 Closing http server.
+2021-03-25_16:28:25.36598 Http server closed.
+2021-03-25_16:28:26.82903 node:internal/modules/cjs/loader:927
+2021-03-25_16:28:26.82906   throw err;
+2021-03-25_16:28:26.82906   ^
+2021-03-25_16:28:26.82907 
+2021-03-25_16:28:26.82907 Error: Cannot find module 'express'
+2021-03-25_16:28:26.82907 Require stack:
+2021-03-25_16:28:26.82907 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:28:26.82908 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:28:26.82908 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:28:26.82908 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:28:26.82908 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:28:26.82909     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:28:26.82909 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:28:26.82909 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:28:26.82909 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:28:26.82910 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:28:26.82910 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:28:26.82910   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:28:26.82910   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:28:26.82911 }
+2021-03-25_16:28:27.98559 Sleep 3 secs. before restart due to previous errors...
+2021-03-25_16:28:31.36097 node:internal/modules/cjs/loader:927
+2021-03-25_16:28:31.36099   throw err;
+2021-03-25_16:28:31.36099   ^
+2021-03-25_16:28:31.36100 
+2021-03-25_16:28:31.36100 Error: Cannot find module 'express'
+2021-03-25_16:28:31.36100 Require stack:
+2021-03-25_16:28:31.36100 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:28:31.36101 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:28:31.36101 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:28:31.36101 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:28:31.36101 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:28:31.36102     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:28:31.36102 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:28:31.36102 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:28:31.36102 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:28:31.36103 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:28:31.36103 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:28:31.36103   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:28:31.36103   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:28:31.36104 }
+2021-03-25_16:28:31.53681 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:29:31.93619 node:internal/modules/cjs/loader:927
+2021-03-25_16:29:31.93621   throw err;
+2021-03-25_16:29:31.93621   ^
+2021-03-25_16:29:31.93622 
+2021-03-25_16:29:31.93622 Error: Cannot find module 'express'
+2021-03-25_16:29:31.93622 Require stack:
+2021-03-25_16:29:31.93622 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:29:31.93622 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:29:31.93623 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:29:31.93624 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:29:31.93624 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:29:31.93625     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:29:31.93625 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:29:31.93625 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:29:31.93625 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:29:31.93625 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:29:31.93626 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:29:31.93626   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:29:31.93626   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:29:31.93627 }
+2021-03-25_16:29:32.06277 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:30:32.45243 node:internal/modules/cjs/loader:927
+2021-03-25_16:30:32.45246   throw err;
+2021-03-25_16:30:32.45246   ^
+2021-03-25_16:30:32.45247 
+2021-03-25_16:30:32.45247 Error: Cannot find module 'express'
+2021-03-25_16:30:32.45247 Require stack:
+2021-03-25_16:30:32.45248 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:30:32.45248 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:30:32.45248 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:30:32.45248 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:30:32.45249 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:30:32.45249     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:30:32.45249 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:30:32.45249 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:30:32.45250 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:30:32.45250 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:30:32.45250 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:30:32.45250   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:30:32.45251   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:30:32.45252 }
+2021-03-25_16:30:32.61793 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:31:32.92461 node:internal/modules/cjs/loader:927
+2021-03-25_16:31:32.92463   throw err;
+2021-03-25_16:31:32.92463   ^
+2021-03-25_16:31:32.92463 
+2021-03-25_16:31:32.92464 Error: Cannot find module 'express'
+2021-03-25_16:31:32.92464 Require stack:
+2021-03-25_16:31:32.92464 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:31:32.92464 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:31:32.92465 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:31:32.92465 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:31:32.92465 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:31:32.92466     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:31:32.92466 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:31:32.92466 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:31:32.92466 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:31:32.92466 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:31:32.92468 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:31:32.92468   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:31:32.92468   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:31:32.92469 }
+2021-03-25_16:31:33.07348 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:32:33.42070 node:internal/modules/cjs/loader:927
+2021-03-25_16:32:33.42072   throw err;
+2021-03-25_16:32:33.42072   ^
+2021-03-25_16:32:33.42072 
+2021-03-25_16:32:33.42073 Error: Cannot find module 'express'
+2021-03-25_16:32:33.42073 Require stack:
+2021-03-25_16:32:33.42073 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:32:33.42073 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:32:33.42074 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:32:33.42074 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:32:33.42074 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:32:33.42074     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:32:33.42075 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:32:33.42075 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:32:33.42075 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:32:33.42075 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:32:33.42076 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:32:33.42076   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:32:33.42076   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:32:33.42077 }
+2021-03-25_16:32:33.56928 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:33:33.92957 node:internal/modules/cjs/loader:927
+2021-03-25_16:33:33.92959   throw err;
+2021-03-25_16:33:33.92960   ^
+2021-03-25_16:33:33.92960 
+2021-03-25_16:33:33.92960 Error: Cannot find module 'express'
+2021-03-25_16:33:33.92960 Require stack:
+2021-03-25_16:33:33.92961 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:33:33.92961 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:33:33.92961 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:33:33.92961 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:33:33.92962 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:33:33.92962     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:33:33.92962 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:33:33.92962 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:33:33.92963 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:33:33.92963 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:33:33.92963 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:33:33.92963   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:33:33.92964   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:33:33.92965 }
+2021-03-25_16:33:34.08172 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:34:34.46114 node:internal/modules/cjs/loader:927
+2021-03-25_16:34:34.46115   throw err;
+2021-03-25_16:34:34.46116   ^
+2021-03-25_16:34:34.46116 
+2021-03-25_16:34:34.46116 Error: Cannot find module 'express'
+2021-03-25_16:34:34.46117 Require stack:
+2021-03-25_16:34:34.46117 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:34:34.46118 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:34:34.46118 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:34:34.46118 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:34:34.46119 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:34:34.46119     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:34:34.46119 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:34:34.46119 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:34:34.46119 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:34:34.46120 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:34:34.46120 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:34:34.46120   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:34:34.46120   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:34:34.46121 }
+2021-03-25_16:34:34.62278 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:35:35.03238 node:internal/modules/cjs/loader:927
+2021-03-25_16:35:35.03241   throw err;
+2021-03-25_16:35:35.03241   ^
+2021-03-25_16:35:35.03242 
+2021-03-25_16:35:35.03242 Error: Cannot find module 'express'
+2021-03-25_16:35:35.03243 Require stack:
+2021-03-25_16:35:35.03243 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:35:35.03243 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:35:35.03244 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:35:35.03244 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:35:35.03245 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:35:35.03245     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:35:35.03245 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:35:35.03246 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:35:35.03246 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:35:35.03246 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:35:35.03247 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:35:35.03247   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:35:35.03248   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:35:35.03249 }
+2021-03-25_16:35:35.21160 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:36:35.63644 node:internal/modules/cjs/loader:927
+2021-03-25_16:36:35.63647   throw err;
+2021-03-25_16:36:35.63647   ^
+2021-03-25_16:36:35.63647 
+2021-03-25_16:36:35.63648 Error: Cannot find module 'express'
+2021-03-25_16:36:35.63648 Require stack:
+2021-03-25_16:36:35.63648 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:36:35.63648 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:36:35.63649 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:36:35.63649 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:36:35.63649 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:36:35.63649     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:36:35.63650 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:36:35.63650 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:36:35.63651 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:36:35.63651 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:36:35.63652 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:36:35.63652   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:36:35.63652   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:36:35.63653 }
+2021-03-25_16:36:35.80046 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:37:36.24084 node:internal/modules/cjs/loader:927
+2021-03-25_16:37:36.24088   throw err;
+2021-03-25_16:37:36.24088   ^
+2021-03-25_16:37:36.24089 
+2021-03-25_16:37:36.24089 Error: Cannot find module 'express'
+2021-03-25_16:37:36.24089 Require stack:
+2021-03-25_16:37:36.24090 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:37:36.24090 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:37:36.24090 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:37:36.24091 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:37:36.24091 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:37:36.24091     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:37:36.24091 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:37:36.24092 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:37:36.24092 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:37:36.24092 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:37:36.24092 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:37:36.24093   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:37:36.24093   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:37:36.24094 }
+2021-03-25_16:37:36.38304 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:38:36.82848 node:internal/modules/cjs/loader:927
+2021-03-25_16:38:36.82851   throw err;
+2021-03-25_16:38:36.82851   ^
+2021-03-25_16:38:36.82851 
+2021-03-25_16:38:36.82852 Error: Cannot find module 'express'
+2021-03-25_16:38:36.82852 Require stack:
+2021-03-25_16:38:36.82852 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:38:36.82852 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:38:36.82853 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:38:36.82853 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:38:36.82853 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:38:36.82853     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:38:36.82854 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:38:36.82854 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:38:36.82854 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:38:36.82854 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:38:36.82855 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:38:36.82855   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:38:36.82855   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:38:36.82856 }
+2021-03-25_16:38:36.98853 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:39:37.45721 node:internal/modules/cjs/loader:927
+2021-03-25_16:39:37.45723   throw err;
+2021-03-25_16:39:37.45725   ^
+2021-03-25_16:39:37.45725 
+2021-03-25_16:39:37.45725 Error: Cannot find module 'express'
+2021-03-25_16:39:37.45725 Require stack:
+2021-03-25_16:39:37.45726 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:39:37.45726 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:39:37.45726 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:39:37.45726 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:39:37.45726 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:39:37.45727     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:39:37.45727 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:39:37.45727 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:39:37.45727 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:39:37.45728 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:39:37.45728 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:39:37.45728   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:39:37.45728   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:39:37.45729 }
+2021-03-25_16:39:37.60628 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:40:37.98317 node:internal/modules/cjs/loader:927
+2021-03-25_16:40:37.98319   throw err;
+2021-03-25_16:40:37.98320   ^
+2021-03-25_16:40:37.98320 
+2021-03-25_16:40:37.98320 Error: Cannot find module 'express'
+2021-03-25_16:40:37.98321 Require stack:
+2021-03-25_16:40:37.98321 - /home/c35697/scrapper1.na4u.ru/app/hello.js
+2021-03-25_16:40:37.98321 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-03-25_16:40:37.98321 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-03-25_16:40:37.98322 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-03-25_16:40:37.98322 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-03-25_16:40:37.98322     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:33:17)
+2021-03-25_16:40:37.98322 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:40:37.98323 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:40:37.98323 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:40:37.98323 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:40:37.98323 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-03-25_16:40:37.98324   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-03-25_16:40:37.98324   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/hello.js'[39m ]
+2021-03-25_16:40:37.98325 }
+2021-03-25_16:40:38.13864 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:41:38.63432 /home/c35697/scrapper1.na4u.ru/app/hello.js:35
+2021-03-25_16:41:38.63434 const port = APP_PORT
+2021-03-25_16:41:38.63434              ^
+2021-03-25_16:41:38.63434 
+2021-03-25_16:41:38.63434 ReferenceError: APP_PORT is not defined
+2021-03-25_16:41:38.63435     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:35:14)
+2021-03-25_16:41:38.63435 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:41:38.63435 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:41:38.63435 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:41:38.63436 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:41:38.63436 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:41:38.63438 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:41:38.80949 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:42:39.29992 /home/c35697/scrapper1.na4u.ru/app/hello.js:35
+2021-03-25_16:42:39.29994 const port = APP_PORT
+2021-03-25_16:42:39.29995              ^
+2021-03-25_16:42:39.29995 
+2021-03-25_16:42:39.29995 ReferenceError: APP_PORT is not defined
+2021-03-25_16:42:39.29995     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:35:14)
+2021-03-25_16:42:39.29996 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:42:39.29996 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:42:39.29996 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:42:39.29996 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:42:39.29997 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:42:39.29997 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:42:39.45630 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:43:24.34438 Sleep 3 secs. before restart due to previous errors...
+2021-03-25_16:43:27.79414 /home/c35697/scrapper1.na4u.ru/app/hello.js:35
+2021-03-25_16:43:27.79416 const port = APP_PORT
+2021-03-25_16:43:27.79416              ^
+2021-03-25_16:43:27.79417 
+2021-03-25_16:43:27.79417 ReferenceError: APP_PORT is not defined
+2021-03-25_16:43:27.79417     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:35:14)
+2021-03-25_16:43:27.79418 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:43:27.79418 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:43:27.79419 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:43:27.79419 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:43:27.79419 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:43:27.79420 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:43:27.93150 Sleep 3 secs. before restart due to previous errors...
+2021-03-25_16:43:31.33545 /home/c35697/scrapper1.na4u.ru/app/hello.js:35
+2021-03-25_16:43:31.33547 const port = APP_PORT
+2021-03-25_16:43:31.33547              ^
+2021-03-25_16:43:31.33548 
+2021-03-25_16:43:31.33548 ReferenceError: APP_PORT is not defined
+2021-03-25_16:43:31.33548     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:35:14)
+2021-03-25_16:43:31.33548 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:43:31.33549 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:43:31.33549 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:43:31.33549 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:43:31.33549 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:43:31.33550 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:43:31.47964 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:44:31.90891 /home/c35697/scrapper1.na4u.ru/app/hello.js:35
+2021-03-25_16:44:31.90894 const port = APP_PORT
+2021-03-25_16:44:31.90894              ^
+2021-03-25_16:44:31.90894 
+2021-03-25_16:44:31.90895 ReferenceError: APP_PORT is not defined
+2021-03-25_16:44:31.90895     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:35:14)
+2021-03-25_16:44:31.90895 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:44:31.90895 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:44:31.90897 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:44:31.90898 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:44:31.90898 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:44:31.90898 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:44:32.05161 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:45:32.50002 /home/c35697/scrapper1.na4u.ru/app/hello.js:35
+2021-03-25_16:45:32.50005 const port = APP_PORT
+2021-03-25_16:45:32.50005              ^
+2021-03-25_16:45:32.50005 
+2021-03-25_16:45:32.50006 ReferenceError: APP_PORT is not defined
+2021-03-25_16:45:32.50006     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:35:14)
+2021-03-25_16:45:32.50006 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:45:32.50006 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:45:32.50007 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:45:32.50007 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:45:32.50007 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:45:32.50008 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:45:32.67959 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:46:15.26946 Sleep 3 secs. before restart due to previous errors...
+2021-03-25_16:46:18.58494 Server running at http://127.0.4.80:51732/
+2021-03-25_16:54:01.20104 SIGTERM signal received.
+2021-03-25_16:54:01.20116 Closing http server.
+2021-03-25_16:54:01.20168 Http server closed.
+2021-03-25_16:54:02.72509 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_16:54:02.72512 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_16:54:02.72512                        ^
+2021-03-25_16:54:02.72512 
+2021-03-25_16:54:02.72512 ReferenceError: path is not defined
+2021-03-25_16:54:02.72513     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_16:54:02.72513 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:54:02.72513 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:54:02.72513 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:54:02.72514 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:54:02.72514 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:54:02.72514 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:54:03.88846 Sleep 3 secs. before restart due to previous errors...
+2021-03-25_16:54:07.30534 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_16:54:07.30537 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_16:54:07.30537                        ^
+2021-03-25_16:54:07.30537 
+2021-03-25_16:54:07.30538 ReferenceError: path is not defined
+2021-03-25_16:54:07.30538     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_16:54:07.30538 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:54:07.30539 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:54:07.30539 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:54:07.30541 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:54:07.30541 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:54:07.30541 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:54:07.46931 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:55:07.91979 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_16:55:07.91981 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_16:55:07.91982                        ^
+2021-03-25_16:55:07.91982 
+2021-03-25_16:55:07.91982 ReferenceError: path is not defined
+2021-03-25_16:55:07.91983     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_16:55:07.91983 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:55:07.91983 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:55:07.91983 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:55:07.91984 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:55:07.91984 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:55:07.91984 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:55:08.07053 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:56:08.49538 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_16:56:08.49541 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_16:56:08.49541                        ^
+2021-03-25_16:56:08.49541 
+2021-03-25_16:56:08.49542 ReferenceError: path is not defined
+2021-03-25_16:56:08.49542     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_16:56:08.49542 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:56:08.49542 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:56:08.49543 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:56:08.49543 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:56:08.49543 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:56:08.49543 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:56:08.63029 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:57:09.09171 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_16:57:09.09174 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_16:57:09.09175                        ^
+2021-03-25_16:57:09.09175 
+2021-03-25_16:57:09.09175 ReferenceError: path is not defined
+2021-03-25_16:57:09.09175     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_16:57:09.09176 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:57:09.09176 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:57:09.09176 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:57:09.09176 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:57:09.09177 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:57:09.09177 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:57:09.22582 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:58:09.71928 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_16:58:09.71931 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_16:58:09.71931                        ^
+2021-03-25_16:58:09.71931 
+2021-03-25_16:58:09.71931 ReferenceError: path is not defined
+2021-03-25_16:58:09.71932     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_16:58:09.71932 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:58:09.71932 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:58:09.71932 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:58:09.71933 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:58:09.71934 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:58:09.71934 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:58:09.86132 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_16:59:10.27642 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_16:59:10.27644 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_16:59:10.27645                        ^
+2021-03-25_16:59:10.27645 
+2021-03-25_16:59:10.27645 ReferenceError: path is not defined
+2021-03-25_16:59:10.27645     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_16:59:10.27646 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_16:59:10.27646 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_16:59:10.27646 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_16:59:10.27646 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_16:59:10.27647 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_16:59:10.27647 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_16:59:10.42094 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:00:10.95944 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:00:10.95947 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:00:10.95948                        ^
+2021-03-25_17:00:10.95948 
+2021-03-25_17:00:10.95948 ReferenceError: path is not defined
+2021-03-25_17:00:10.95948     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:00:10.95949 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:00:10.95949 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:00:10.95949 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:00:10.95949 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:00:10.95950 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:00:10.95950 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:00:11.08913 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:01:11.61436 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:01:11.61439 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:01:11.61439                        ^
+2021-03-25_17:01:11.61439 
+2021-03-25_17:01:11.61439 ReferenceError: path is not defined
+2021-03-25_17:01:11.61440     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:01:11.61440 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:01:11.61440 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:01:11.61441 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:01:11.61441 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:01:11.61441 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:01:11.61441 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:01:11.75820 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:02:12.22665 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:02:12.22669 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:02:12.22669                        ^
+2021-03-25_17:02:12.22669 
+2021-03-25_17:02:12.22670 ReferenceError: path is not defined
+2021-03-25_17:02:12.22670     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:02:12.22671 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:02:12.22672 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:02:12.22672 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:02:12.22672 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:02:12.22672 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:02:12.22672 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:02:12.37144 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:03:12.80727 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:03:12.80730 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:03:12.80730                        ^
+2021-03-25_17:03:12.80730 
+2021-03-25_17:03:12.80731 ReferenceError: path is not defined
+2021-03-25_17:03:12.80731     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:03:12.80731 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:03:12.80732 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:03:12.80732 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:03:12.80733 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:03:12.80733 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:03:12.80733 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:03:12.95613 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:04:13.44191 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:04:13.44194 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:04:13.44194                        ^
+2021-03-25_17:04:13.44194 
+2021-03-25_17:04:13.44195 ReferenceError: path is not defined
+2021-03-25_17:04:13.44195     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:04:13.44195 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:04:13.44195 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:04:13.44196 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:04:13.44196 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:04:13.44196 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:04:13.44196 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:04:13.59523 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:05:14.00736 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:05:14.00739 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:05:14.00739                        ^
+2021-03-25_17:05:14.00740 
+2021-03-25_17:05:14.00740 ReferenceError: path is not defined
+2021-03-25_17:05:14.00740     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:05:14.00741 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:05:14.00741 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:05:14.00742 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:05:14.00742 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:05:14.00743 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:05:14.00743 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:05:14.17700 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:06:14.61737 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:06:14.61741 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:06:14.61741                        ^
+2021-03-25_17:06:14.61742 
+2021-03-25_17:06:14.61742 ReferenceError: path is not defined
+2021-03-25_17:06:14.61742     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:06:14.61742 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:06:14.61742 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:06:14.61743 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:06:14.61743 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:06:14.61743 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:06:14.61743 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:06:14.75155 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:07:15.16630 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:07:15.16633 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:07:15.16633                        ^
+2021-03-25_17:07:15.16633 
+2021-03-25_17:07:15.16634 ReferenceError: path is not defined
+2021-03-25_17:07:15.16634     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:07:15.16634 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:07:15.16634 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:07:15.16635 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:07:15.16635 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:07:15.16635 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:07:15.16635 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:07:15.30908 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:08:15.71043 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:08:15.71046 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:08:15.71046                        ^
+2021-03-25_17:08:15.71047 
+2021-03-25_17:08:15.71047 ReferenceError: path is not defined
+2021-03-25_17:08:15.71047     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:08:15.71047 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:08:15.71048 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:08:15.71048 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:08:15.71048 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:08:15.71048 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:08:15.71049 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:08:15.85572 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:09:16.29688 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:09:16.29691 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:09:16.29691                        ^
+2021-03-25_17:09:16.29691 
+2021-03-25_17:09:16.29692 ReferenceError: path is not defined
+2021-03-25_17:09:16.29692     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:09:16.29692 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:09:16.29692 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:09:16.29693 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:09:16.29693 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:09:16.29694 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:09:16.29695 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:09:16.42566 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:10:16.85587 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:10:16.85590 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:10:16.85591                        ^
+2021-03-25_17:10:16.85591 
+2021-03-25_17:10:16.85591 ReferenceError: path is not defined
+2021-03-25_17:10:16.85592     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:10:16.85592 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:10:16.85593 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:10:16.85593 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:10:16.85594 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:10:16.85594 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:10:16.85594 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:10:16.99805 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:11:17.42223 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:11:17.42226 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:11:17.42226                        ^
+2021-03-25_17:11:17.42226 
+2021-03-25_17:11:17.42227 ReferenceError: path is not defined
+2021-03-25_17:11:17.42227     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:11:17.42227 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:11:17.42228 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:11:17.42228 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:11:17.42228 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:11:17.42228 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:11:17.42229 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:11:17.57391 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:12:18.00777 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:12:18.00780 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:12:18.00781                        ^
+2021-03-25_17:12:18.00781 
+2021-03-25_17:12:18.00781 ReferenceError: path is not defined
+2021-03-25_17:12:18.00781     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:12:18.00782 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:12:18.00782 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:12:18.00782 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:12:18.00782 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:12:18.00783 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:12:18.00783 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:12:18.15755 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:13:18.63307 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:13:18.63309 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:13:18.63309                        ^
+2021-03-25_17:13:18.63309 
+2021-03-25_17:13:18.63310 ReferenceError: path is not defined
+2021-03-25_17:13:18.63310     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:13:18.63310 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:13:18.63311 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:13:18.63311 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:13:18.63312 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:13:18.63312 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:13:18.63312 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:13:18.77385 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:14:19.21111 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:14:19.21115 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:14:19.21115                        ^
+2021-03-25_17:14:19.21116 
+2021-03-25_17:14:19.21116 ReferenceError: path is not defined
+2021-03-25_17:14:19.21117     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:14:19.21118 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:14:19.21118 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:14:19.21118 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:14:19.21119 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:14:19.21119 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:14:19.21120 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:14:19.36776 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:15:19.93560 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:15:19.93563 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:15:19.93563                        ^
+2021-03-25_17:15:19.93564 
+2021-03-25_17:15:19.93564 ReferenceError: path is not defined
+2021-03-25_17:15:19.93564     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:15:19.93564 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:15:19.93565 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:15:19.93565 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:15:19.93565 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:15:19.93565 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:15:19.93566 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:15:20.08636 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:16:20.54440 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:16:20.54443 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:16:20.54443                        ^
+2021-03-25_17:16:20.54443 
+2021-03-25_17:16:20.54443 ReferenceError: path is not defined
+2021-03-25_17:16:20.54444     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:16:20.54444 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:16:20.54444 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:16:20.54444 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:16:20.54445 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:16:20.54445 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:16:20.54445 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:16:20.68169 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:17:21.10819 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:17:21.10823 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:17:21.10823                        ^
+2021-03-25_17:17:21.10823 
+2021-03-25_17:17:21.10823 ReferenceError: path is not defined
+2021-03-25_17:17:21.10824     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:17:21.10824 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:17:21.10824 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:17:21.10824 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:17:21.10825 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:17:21.10825 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:17:21.10825 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:17:21.25353 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:18:21.70190 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:18:21.70193 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:18:21.70194                        ^
+2021-03-25_17:18:21.70194 
+2021-03-25_17:18:21.70194 ReferenceError: path is not defined
+2021-03-25_17:18:21.70195     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:18:21.70195 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:18:21.70195 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:18:21.70195 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:18:21.70196 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:18:21.70196 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:18:21.70196 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:18:21.86492 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:19:22.29960 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:19:22.29963 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:19:22.29964                        ^
+2021-03-25_17:19:22.29964 
+2021-03-25_17:19:22.29964 ReferenceError: path is not defined
+2021-03-25_17:19:22.29964     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:19:22.29965 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:19:22.29965 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:19:22.29965 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:19:22.29965 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:19:22.29966 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:19:22.29966 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:19:22.46137 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:20:22.91784 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:20:22.91787 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:20:22.91787                        ^
+2021-03-25_17:20:22.91788 
+2021-03-25_17:20:22.91788 ReferenceError: path is not defined
+2021-03-25_17:20:22.91788     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:20:22.91788 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:20:22.91789 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:20:22.91789 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:20:22.91789 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:20:22.91791 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:20:22.91791 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:20:23.06718 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:21:23.51522 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:21:23.51525 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:21:23.51526                        ^
+2021-03-25_17:21:23.51526 
+2021-03-25_17:21:23.51527 ReferenceError: path is not defined
+2021-03-25_17:21:23.51527     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:21:23.51527 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:21:23.51528 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:21:23.51528 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:21:23.51529 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:21:23.51529 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:21:23.51530 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-25_17:21:23.65889 Sleep 60 secs. before restart due to previous errors...
+2021-03-25_17:22:24.13007 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-25_17:22:24.13010 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-25_17:22:24.13010                        ^
+2021-03-25_17:22:24.13010 
+2021-03-25_17:22:24.13010 ReferenceError: path is not defined
+2021-03-25_17:22:24.13011     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-25_17:22:24.13011 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-25_17:22:24.13012 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-25_17:22:24.13012 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-25_17:22:24.13013 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-25_17:22:24.13013 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-25_17:22:24.13013 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:31:40.46550 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-26_07:31:40.46592 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-26_07:31:40.46592                        ^
+2021-03-26_07:31:40.46593 
+2021-03-26_07:31:40.46593 ReferenceError: path is not defined
+2021-03-26_07:31:40.46593     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-26_07:31:40.46593 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-26_07:31:40.46594 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-26_07:31:40.46594 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-26_07:31:40.46594 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-26_07:31:40.46594 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-26_07:31:40.46595 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:31:41.62687 Sleep 60 secs. before restart due to previous errors...
+2021-03-26_07:32:42.06051 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-26_07:32:42.06054 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-26_07:32:42.06054                        ^
+2021-03-26_07:32:42.06054 
+2021-03-26_07:32:42.06054 ReferenceError: path is not defined
+2021-03-26_07:32:42.06055     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-26_07:32:42.06055 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-26_07:32:42.06055 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-26_07:32:42.06057 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-26_07:32:42.06057 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-26_07:32:42.06057 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-26_07:32:42.06057 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:32:42.18989 Sleep 60 secs. before restart due to previous errors...
+2021-03-26_07:33:42.66657 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-26_07:33:42.66658 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-26_07:33:42.66659                        ^
+2021-03-26_07:33:42.66660 
+2021-03-26_07:33:42.66660 ReferenceError: path is not defined
+2021-03-26_07:33:42.66660     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-26_07:33:42.66660 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-26_07:33:42.66661 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-26_07:33:42.66661 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-26_07:33:42.66661 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-26_07:33:42.66661 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-26_07:33:42.66662 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:33:42.80452 Sleep 60 secs. before restart due to previous errors...
+2021-03-26_07:34:43.28364 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-26_07:34:43.28366 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-26_07:34:43.28366                        ^
+2021-03-26_07:34:43.28366 
+2021-03-26_07:34:43.28366 ReferenceError: path is not defined
+2021-03-26_07:34:43.28367     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-26_07:34:43.28367 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-26_07:34:43.28367 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-26_07:34:43.28367 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-26_07:34:43.28368 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-26_07:34:43.28368 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-26_07:34:43.28368 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:34:43.42759 Sleep 60 secs. before restart due to previous errors...
+2021-03-26_07:35:15.30477 Sleep 3 secs. before restart due to previous errors...
+2021-03-26_07:35:18.66232 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-26_07:35:18.66234 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-26_07:35:18.66235                        ^
+2021-03-26_07:35:18.66235 
+2021-03-26_07:35:18.66235 ReferenceError: path is not defined
+2021-03-26_07:35:18.66235     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-26_07:35:18.66236 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-26_07:35:18.66236 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-26_07:35:18.66236 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-26_07:35:18.66236 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-26_07:35:18.66237 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-26_07:35:18.66237 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:35:18.82202 Sleep 3 secs. before restart due to previous errors...
+2021-03-26_07:35:22.98865 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-26_07:35:22.98867 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-26_07:35:22.98868                        ^
+2021-03-26_07:35:22.98868 
+2021-03-26_07:35:22.98869 ReferenceError: path is not defined
+2021-03-26_07:35:22.98869     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-26_07:35:22.98869 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-26_07:35:22.98869 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-26_07:35:22.98869 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-26_07:35:22.98870 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-26_07:35:22.98870 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-26_07:35:22.98870 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:35:23.13802 Sleep 60 secs. before restart due to previous errors...
+2021-03-26_07:36:23.56087 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-26_07:36:23.56089 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-26_07:36:23.56089                        ^
+2021-03-26_07:36:23.56090 
+2021-03-26_07:36:23.56091 ReferenceError: path is not defined
+2021-03-26_07:36:23.56091     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-26_07:36:23.56091 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-26_07:36:23.56091 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-26_07:36:23.56092 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-26_07:36:23.56092 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-26_07:36:23.56092 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-26_07:36:23.56092 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:36:23.71873 Sleep 60 secs. before restart due to previous errors...
+2021-03-26_07:37:24.18902 /home/c35697/scrapper1.na4u.ru/app/hello.js:36
+2021-03-26_07:37:24.18904 app.use(express.static(path.resolve(__dirname, './')));
+2021-03-26_07:37:24.18904                        ^
+2021-03-26_07:37:24.18905 
+2021-03-26_07:37:24.18905 ReferenceError: path is not defined
+2021-03-26_07:37:24.18905     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/hello.js:36:24)
+2021-03-26_07:37:24.18905 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-03-26_07:37:24.18906 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-03-26_07:37:24.18906 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-03-26_07:37:24.18906 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-03-26_07:37:24.18906 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-03-26_07:37:24.18907 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-03-26_07:37:24.33095 Sleep 60 secs. before restart due to previous errors...
+2021-03-26_07:38:15.29878 Sleep 3 secs. before restart due to previous errors...
+2021-04-03_09:47:42.32668 node:internal/modules/cjs/loader:927
+2021-04-03_09:47:42.32671   throw err;
+2021-04-03_09:47:42.32671   ^
+2021-04-03_09:47:42.32671 
+2021-04-03_09:47:42.32672 Error: Cannot find module 'express'
+2021-04-03_09:47:42.32672 Require stack:
+2021-04-03_09:47:42.32672 - /home/c35697/scrapper1.na4u.ru/app/server/index.js
+2021-04-03_09:47:42.32673 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-04-03_09:47:42.32673 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-04-03_09:47:42.32674 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-04-03_09:47:42.32674 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-04-03_09:47:42.32674     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:2:18)
+2021-04-03_09:47:42.32676 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:47:42.32676 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:47:42.32676 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:47:42.32677 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:47:42.32677 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-04-03_09:47:42.32677   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-04-03_09:47:42.32677   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/server/index.js'[39m ]
+2021-04-03_09:47:42.32679 }
+2021-04-03_09:47:43.52366 Sleep 3 secs. before restart due to previous errors...
+2021-04-03_09:47:46.89447 node:internal/modules/cjs/loader:927
+2021-04-03_09:47:46.89449   throw err;
+2021-04-03_09:47:46.89449   ^
+2021-04-03_09:47:46.89450 
+2021-04-03_09:47:46.89450 Error: Cannot find module 'express'
+2021-04-03_09:47:46.89450 Require stack:
+2021-04-03_09:47:46.89450 - /home/c35697/scrapper1.na4u.ru/app/server/index.js
+2021-04-03_09:47:46.89450 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-04-03_09:47:46.89451 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-04-03_09:47:46.89451 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-04-03_09:47:46.89451 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-04-03_09:47:46.89451     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:2:18)
+2021-04-03_09:47:46.89451 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:47:46.89452 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:47:46.89452 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:47:46.89452 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:47:46.89452 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-04-03_09:47:46.89452   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-04-03_09:47:46.89453   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/server/index.js'[39m ]
+2021-04-03_09:47:46.89454 }
+2021-04-03_09:47:47.09211 Sleep 60 secs. before restart due to previous errors...
+2021-04-03_09:48:47.47567 node:internal/modules/cjs/loader:927
+2021-04-03_09:48:47.47570   throw err;
+2021-04-03_09:48:47.47570   ^
+2021-04-03_09:48:47.47571 
+2021-04-03_09:48:47.47571 Error: Cannot find module 'express'
+2021-04-03_09:48:47.47571 Require stack:
+2021-04-03_09:48:47.47571 - /home/c35697/scrapper1.na4u.ru/app/server/index.js
+2021-04-03_09:48:47.47572 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-04-03_09:48:47.47572 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-04-03_09:48:47.47572 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-04-03_09:48:47.47572 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-04-03_09:48:47.47573     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:2:18)
+2021-04-03_09:48:47.47573 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:48:47.47573 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:48:47.47573 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:48:47.47574 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:48:47.47574 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-04-03_09:48:47.47575   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-04-03_09:48:47.47576   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/server/index.js'[39m ]
+2021-04-03_09:48:47.47578 }
+2021-04-03_09:48:47.65023 Sleep 60 secs. before restart due to previous errors...
+2021-04-03_09:49:01.13566 Sleep 3 secs. before restart due to previous errors...
+2021-04-03_09:49:04.50552 node:internal/modules/cjs/loader:927
+2021-04-03_09:49:04.50554   throw err;
+2021-04-03_09:49:04.50555   ^
+2021-04-03_09:49:04.50555 
+2021-04-03_09:49:04.50555 Error: Cannot find module 'express'
+2021-04-03_09:49:04.50556 Require stack:
+2021-04-03_09:49:04.50556 - /home/c35697/scrapper1.na4u.ru/app/server/index.js
+2021-04-03_09:49:04.50556 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-04-03_09:49:04.50557 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-04-03_09:49:04.50557 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-04-03_09:49:04.50557 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-04-03_09:49:04.50558     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:2:18)
+2021-04-03_09:49:04.50558 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:49:04.50558 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:49:04.50559 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:49:04.50559 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:49:04.50560 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-04-03_09:49:04.50561   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-04-03_09:49:04.50561   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/server/index.js'[39m ]
+2021-04-03_09:49:04.50563 }
+2021-04-03_09:49:04.66626 Sleep 3 secs. before restart due to previous errors...
+2021-04-03_09:49:08.01772 node:internal/modules/cjs/loader:927
+2021-04-03_09:49:08.01774   throw err;
+2021-04-03_09:49:08.01774   ^
+2021-04-03_09:49:08.01774 
+2021-04-03_09:49:08.01775 Error: Cannot find module 'express'
+2021-04-03_09:49:08.01775 Require stack:
+2021-04-03_09:49:08.01775 - /home/c35697/scrapper1.na4u.ru/app/server/index.js
+2021-04-03_09:49:08.01776 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-04-03_09:49:08.01776 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-04-03_09:49:08.01776 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-04-03_09:49:08.01777 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-04-03_09:49:08.01777     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:2:18)
+2021-04-03_09:49:08.01777 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:49:08.01778 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:49:08.01778 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:49:08.01779 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:49:08.01779 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-04-03_09:49:08.01779   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-04-03_09:49:08.01780   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/server/index.js'[39m ]
+2021-04-03_09:49:08.01781 }
+2021-04-03_09:49:08.20731 Sleep 60 secs. before restart due to previous errors...
+2021-04-03_09:50:08.62391 node:internal/modules/cjs/loader:927
+2021-04-03_09:50:08.62393   throw err;
+2021-04-03_09:50:08.62394   ^
+2021-04-03_09:50:08.62394 
+2021-04-03_09:50:08.62394 Error: Cannot find module 'express'
+2021-04-03_09:50:08.62394 Require stack:
+2021-04-03_09:50:08.62395 - /home/c35697/scrapper1.na4u.ru/app/server/index.js
+2021-04-03_09:50:08.62395 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-04-03_09:50:08.62396 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-04-03_09:50:08.62396 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-04-03_09:50:08.62397 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-04-03_09:50:08.62397     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:2:18)
+2021-04-03_09:50:08.62397 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:50:08.62397 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:50:08.62398 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:50:08.62398 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:50:08.62398 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-04-03_09:50:08.62398   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-04-03_09:50:08.62398   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/server/index.js'[39m ]
+2021-04-03_09:50:08.62399 }
+2021-04-03_09:50:08.80891 Sleep 60 secs. before restart due to previous errors...
+2021-04-03_09:51:09.20059 node:internal/modules/cjs/loader:927
+2021-04-03_09:51:09.20062   throw err;
+2021-04-03_09:51:09.20062   ^
+2021-04-03_09:51:09.20062 
+2021-04-03_09:51:09.20063 Error: Cannot find module 'express'
+2021-04-03_09:51:09.20063 Require stack:
+2021-04-03_09:51:09.20063 - /home/c35697/scrapper1.na4u.ru/app/server/index.js
+2021-04-03_09:51:09.20063 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-04-03_09:51:09.20064 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-04-03_09:51:09.20064 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-04-03_09:51:09.20064 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-04-03_09:51:09.20065     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:2:18)
+2021-04-03_09:51:09.20065 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:51:09.20065 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:51:09.20065 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:51:09.20066 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:51:09.20066 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-04-03_09:51:09.20066   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-04-03_09:51:09.20067   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/server/index.js'[39m ]
+2021-04-03_09:51:09.20067 }
+2021-04-03_09:51:09.39147 Sleep 60 secs. before restart due to previous errors...
+2021-04-03_09:52:09.88931 node:internal/modules/cjs/loader:927
+2021-04-03_09:52:09.88933   throw err;
+2021-04-03_09:52:09.88934   ^
+2021-04-03_09:52:09.88934 
+2021-04-03_09:52:09.88934 Error: Cannot find module 'nedb'
+2021-04-03_09:52:09.88935 Require stack:
+2021-04-03_09:52:09.88935 - /home/c35697/scrapper1.na4u.ru/app/server/index.js
+2021-04-03_09:52:09.88935 [90m    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)[39m
+2021-04-03_09:52:09.88936 [90m    at Function.Module._load (node:internal/modules/cjs/loader:769:27)[39m
+2021-04-03_09:52:09.88936 [90m    at Module.require (node:internal/modules/cjs/loader:996:19)[39m
+2021-04-03_09:52:09.88936 [90m    at require (node:internal/modules/cjs/helpers:92:18)[39m
+2021-04-03_09:52:09.88937     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:8:17)
+2021-04-03_09:52:09.88937 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:52:09.88937 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:52:09.88939 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:52:09.88939 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:52:09.88939 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m {
+2021-04-03_09:52:09.88940   code: [32m'MODULE_NOT_FOUND'[39m,
+2021-04-03_09:52:09.88940   requireStack: [ [32m'/home/c35697/scrapper1.na4u.ru/app/server/index.js'[39m ]
+2021-04-03_09:52:09.88941 }
+2021-04-03_09:52:10.04722 Sleep 60 secs. before restart due to previous errors...
+2021-04-03_09:52:53.67219 Sleep 3 secs. before restart due to previous errors...
+2021-04-03_09:52:57.10792 /home/c35697/scrapper1.na4u.ru/app/server/index.js:27
+2021-04-03_09:52:57.10794 http.listen(port, () => {
+2021-04-03_09:52:57.10795 ^
+2021-04-03_09:52:57.10795 
+2021-04-03_09:52:57.10795 ReferenceError: http is not defined
+2021-04-03_09:52:57.10795     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:27:1)
+2021-04-03_09:52:57.10795 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:52:57.10796 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:52:57.10796 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:52:57.10796 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:52:57.10796 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-04-03_09:52:57.10797 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-04-03_09:52:57.25225 Sleep 3 secs. before restart due to previous errors...
+2021-04-03_09:53:00.84309 /home/c35697/scrapper1.na4u.ru/app/server/index.js:27
+2021-04-03_09:53:00.84310 http.listen(port, () => {
+2021-04-03_09:53:00.84310 ^
+2021-04-03_09:53:00.84310 
+2021-04-03_09:53:00.84311 ReferenceError: http is not defined
+2021-04-03_09:53:00.84311     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:27:1)
+2021-04-03_09:53:00.84311 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:53:00.84311 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:53:00.84312 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:53:00.84312 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:53:00.84312 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-04-03_09:53:00.84312 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-04-03_09:53:01.01299 Sleep 60 secs. before restart due to previous errors...
+2021-04-03_09:54:01.62389 /home/c35697/scrapper1.na4u.ru/app/server/index.js:27
+2021-04-03_09:54:01.62391 http.listen(port, () => {
+2021-04-03_09:54:01.62391 ^
+2021-04-03_09:54:01.62391 
+2021-04-03_09:54:01.62391 ReferenceError: http is not defined
+2021-04-03_09:54:01.62392     at Object.<anonymous> (/home/c35697/scrapper1.na4u.ru/app/server/index.js:27:1)
+2021-04-03_09:54:01.62392 [90m    at Module._compile (node:internal/modules/cjs/loader:1092:14)[39m
+2021-04-03_09:54:01.62392 [90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+2021-04-03_09:54:01.62392 [90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+2021-04-03_09:54:01.62393 [90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+2021-04-03_09:54:01.62393 [90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+2021-04-03_09:54:01.62393 [90m    at node:internal/main/run_main_module:17:47[39m
+2021-04-03_09:54:01.81342 Sleep 60 secs. before restart due to previous errors...
